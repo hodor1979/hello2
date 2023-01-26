@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hello2"
+version = "0.1.0"
+description = ""
+authors = ["hodor1979 <alexander.lhodakov1979@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+colorama = "^0.4.6"
+
+[tool.poetry.scripts]
+say-hello = "scripts.say_hello2:hello"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
