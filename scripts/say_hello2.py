@@ -1,5 +1,5 @@
 def hello():
-	print("Hello!")
+	print("Hello!!")
 #def main():
 	# #!/usr/bin/env python3
 	#from colorama import Fore, Style    
